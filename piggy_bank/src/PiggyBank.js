@@ -10,6 +10,12 @@ class PiggyBank extends React.Component {
     this.withdraw = this.withdraw.bind(this);
   }
 
+  deposit(){
+    this.setState(prevState => {
+      return {total: prevState.total + this.props.depositAmount};
+    });
+  }
+
 }
 
 export default PiggyBank;
