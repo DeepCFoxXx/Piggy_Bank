@@ -26,6 +26,18 @@ class PiggyBank extends React.Component {
     });
   }
 
+  render() {
+    return (
+      <div>
+        <h1>React Piggy Bank</h1>
+        <p>Piggy Bank owner is {this.props.owner}.</p>
+        <p>Balance £{this.state.total}</p>
+        <button onClick={ this.deposit }>Add</button>
+        <button onClick={ this.withdraw }>Withdraw</button>
+      </div>
+    );
+  }
+
 }
 
 export default PiggyBank;
