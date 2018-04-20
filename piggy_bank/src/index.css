@@ -7,7 +7,23 @@ body {
 
 h1 {
   font-size: 45px;
+  font-family: sans-serif;
   color: hotpink;
   text-decoration: underline;
   text-align: center;
+}
+
+p {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: hotpink;
+}
+
+button {
+  margin: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: hotpink;
+  padding: 14px 40px;
 }
